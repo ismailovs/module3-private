@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "s_tc_1_remote"
+    organization = "s_tc_1"
 
     workspaces {
-      name = "terraform-aws-module-security-groups"
+      name = "module3-private"
     }
   }
   required_providers {
